@@ -1,0 +1,20 @@
+$primaryColor: #FDFFFC;
+$secondaryColor: #E5ECE9;
+$sweetRed: #FF0022;
+$darkPurple: #36213E;
+
+@mixin flexing($direction, $justification){
+    display: flex;
+    flex-flow: $direction;
+    justify-content: $justification;
+}
+
+@mixin flexCenter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin cards{
+    box-shadow: 0 0 1px rgba(169, 169, 169, 0.25);
+}

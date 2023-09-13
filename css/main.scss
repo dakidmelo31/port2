@@ -1,0 +1,15 @@
+
+
+@import "./base";
+
+@mixin flexCenter($justification, $direction){
+    display: flex;
+    flex-flow: $direction;
+    justify-content: $justification;
+    align-items: center;
+    background-color: blue;
+}
+
+body{
+    background-color: $primaryColor;
+}
